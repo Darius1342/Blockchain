@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.background{
+  background-image: linear-gradient(61deg, #374358 44%, #E2805B 73%);
+}
+
+/* The body covers the whole page */
+body {
+  margin: 0;
+  padding: 0;
+  background: #000000; /* Black background */
+  font-family: Arial, sans-serif;
+}
+
+/* The main application container */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Headers within the app */
+.App h1 {
+  background: linear-gradient(to right, yellow, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* The navigation bar */
+.NavBar {
+  display: inline-flex; /* Changed from flex to inline-flex */
+  justify-content: start;
+  background: black; /* Light gray color */
+  padding: 10px;
+  border-radius: 15px; /* Added border-radius for rounded edges */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.NavBar button {
+  color: orange;
+  background: transparent;
+  border: none;
+  padding: 10px 20px; /* Increase padding for better shape */
+  margin-right: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  border-radius: 25px; /* This will make the buttons oval */
+}
+
+.NavBar button:last-child {
+  margin-right: 0; /* Removes margin from the last button */
+}
+
+.NavBar button:hover {
+  background: linear-gradient(to left, yellow, orange);
+  color: #000000; /* Black text when hover */
+}
+/* Main content area */
+main {
+  flex: 1;
+  padding: 20px;
+  color: #fcaf17; /* Gradient color start (yellow to orange) */
+  background: black;
+  
+}
+
+/* Footer styles */
+footer {
+  background: transparent;
+  color: #fcaf17; /* Gradient color start (yellow to orange) */
+  padding: 20px;
+  text-align: center;
+}
+
+/* TeamsForm.css */
+
+.TeamsForm input[type="text"],
+.TeamsForm input[type="number"] {
+  color: orange !important; /* Dark color for text */
+  background: transparent; /* White background */
+  border: 1px solid #333; /* Dark border */
+  padding: 5px; /* Some padding */
+}
+
+.TeamsForm label {
+  color: orange !important; /* White color for contrast */
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.TeamsForm button {
+  color: orange !important; /* White color for contrast */
+  background: transparent; /* Ethereum blue */
+  border: none;
+  padding: 10px; /* Some padding */
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  border-radius: 15px; /* Rounded corners */
+}
+
+.TeamsForm button:hover {
+  background: linear-gradient(to left, yellow, orange);
+  color: #000000 !important; /* Black text when hover */
+}

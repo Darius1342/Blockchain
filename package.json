@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "ganache": "^7.7.3",
+    "ganache-cli": "^6.12.2",
+    "truffle": "^5.7.3",
+    "web3": "^1.8.1",
+    "web3-react": "^5.0.5"
+  }
+}
